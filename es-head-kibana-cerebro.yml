@@ -1,7 +1,7 @@
 version: '2.3'
 services:
   eshead:
-    image: mobz/elasticsearch-head:5
+    image: dfxlm/elasticsearch-head:5
     container_name: elasticsearch-head
     restart: always
     ports:
